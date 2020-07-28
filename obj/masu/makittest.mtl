@@ -1,0 +1,9 @@
+newmtl デフォルト
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+illum 0
+map_Ka makittest.jpg
+map_Kd makittest.jpg
+map_Ks makittest.jpg
+
