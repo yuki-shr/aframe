@@ -1,4 +1,4 @@
-<html>
+<html lang="ja">
   <head>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.7/aframe/build/aframe-ar.js"></script>
@@ -7,8 +7,8 @@
     
     <a-scene embedded arjs>
   <a-assets>
-    <a-asset-item id="obj" src="obj/masu/aaa.obj"></a-asset-item> <!-- objファイル -->
-    <a-asset-item id="mtl" src="obj/masu/aaa.mtl"></a-asset-item> <!-- mtlファイル -->
+    <a-asset-item id="obj" src="obj/masu/makit.obj"></a-asset-item> <!-- objファイル -->
+    <a-asset-item id="mtl" src="obj/masu/makit.mtl"></a-asset-item> <!-- mtlファイル -->
   </a-assets>
   <a-marker preset="hiro">
     <a-obj-model src="#obj" mtl="#mtl" scale=".01 .01 .01" position="0 1.5 0"></a-obj-model>
@@ -17,3 +17,4 @@
   <a-entity camera></a-entity>
 </a-scene>
 </body>
+</html>
